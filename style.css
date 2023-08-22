@@ -1,0 +1,168 @@
+/* subscribe */
+.btn1{
+    background-color: rgb(200,0,0);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    width: 105px;
+    height: 36px;
+    cursor: pointer;
+}
+/* join */
+.btn2{
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(41,118,211);
+    color: rgb(41,118,211);
+    border-width: 1px;
+    border-radius: 4px;
+    width:62px ;
+    height: 36px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+ 
+
+}
+/* tweet */
+.btn3{
+    background-color: rgb(2, 158, 255);
+    border: none;
+    color: white;
+    border-radius: 18px;
+    width: 70px;
+    height: 36px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 8px;
+}
+/* add to cart */
+.btn4{
+    background-color:rgb(255, 216, 20);
+    border: none;
+    color: black;
+    width:200px;
+    height: 40px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* Sign-up */
+.btn5{
+    background-color:rgb(46, 164, 79);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 90px;
+    height: 37px;
+    margin-left: 8px;
+
+}
+/* request now */
+.btn6{
+    background-color:black;
+    border: none;
+    border-radius: none;
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+    width: 100px;
+    height: 37px;
+    margin-left: 8px;
+}
+/* Get started */
+.btn7{
+    background-color:rgb(121,82,170);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 95px;
+    height: 37px;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Download */
+.btn8{
+    background-color:white;
+    border:1px solid rgb(108, 117, 125);
+    border-radius: 3px;
+    color: rgb(108, 117, 125);
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100px;
+    height: 37px;
+    margin-left: 8px;
+}
+/* save */
+.btn9{
+    background-color:white;
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 20px;
+    color:rgb(41,118,220) ;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    width: 94px;
+    height:45px;
+    margin-left: 8px;
+}
+/* disabled */
+.btn10{
+    background-color:#efefef;
+    border: none;
+    border-radius: 1px;
+    color:grey;
+    font-weight: bolder;
+    
+    width: 100px;
+    height: 40px;
+    margin-left: 8px;
+}
+/* svg facebook */
+.btn11{
+    background-color:#efefef;
+    border: none;
+    border-radius: 400px;
+    color: rgb(10, 102, 194);
+    
+    cursor: pointer;
+    width: 40px;
+    height:40px;
+    margin-left: 8px;
+    
+}
+.btn11:hover{
+    background-color: lightgrey;
+    color: red;
+    opacity: 1;
+    -moz-box-align: center;
+ }
+/* svg youtube */
+.btn12{
+    background-color:#efefef;
+    border: none;
+    border-radius: 400px;
+    color:red;
+    
+    cursor: pointer;
+    width: 40px;
+    height:40px;
+    margin-left: 8px;
+    cursor: pointer;
+    
+}
+.btn12:hover{
+    background-color: lightgrey;
+    color: red;
+    opacity: 1;
+    border: none;
+}
+/* mostly these are used */
