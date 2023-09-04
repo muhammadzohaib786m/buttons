@@ -1,16 +1,213 @@
-/* subscribe */
-.btn1{
+
+
+
+body{
+    background: #eee;
+    font-family:'Times New Roman', Times, serif;
+    height: 100%;
+   
+
+
+}
+.header{
+    display:inline-block;
+   
+ 
+    padding:40px 30px;
+    
+    line-height: 30px;
+    color:lightslategrey;
+
+
+}
+
+
+.header p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+#special{
+    color:#7009e3;
+    font-weight:bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.anc{
+    position:absolute;
+    bottom: 370px;
+    left: 745px;
+}
+.anc img{
+    float:right;
+    height: 270px;
+}
+.button{
+    cursor: pointer;
+    background-color: #7009e3;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    height:40px;
+    width: 125px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+section{
+   display:inline-block;
+   padding-top: 302px;
+   position: absolute;
+   left: 900px;
+   top: 100px;
+   color: lightslategray;
+
+   
+  
+      
+
+}
+.adc{
+    position:absolute;
+   top: 330px;
+    right: 840px;
+    
+}
+.adc img{
+    float:left;
+   
+}
+#space{
+   
+        color:#7009e3;
+        font-weight:300;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+footer{
+ background-size: cover;
+ background-color: lightslategrey;
+ 
+ height: 600px;
+ width: 100%;
+position: relative;
+top:400px;
+border-radius: 3px;
+
+
+}
+.container{
+    border-left: 3px solid black;
+    height: 400px;
+    position: absolute;
+    left: 56px;
+    top: 75px;
+    opacity: .3;
+
+}
+ footer h1{
+    padding: 30px;
+    margin: 14px;
+    color: green;
+    opacity:1;
+ }
+ footer h3{
+    padding: 40px;
+    margin: 28px;
+    color: black;
+    opacity:1;
+    position: absolute;
+    top: 50px;
+    left: 18px;
+ }
+ footer a{
+   
+    position: absolute;
+    top:164px ;
+    left: 85px;
+    text-decoration:none;
+    color: #7009e3;
+
+
+ }
+ footer p{
+    opacity: 1;
+    position: absolute;
+    top:181px ;
+    left: 85px;
+   
+ }
+
+ footer .mad{
+    position: absolute;
+    top: 217px;
+    left: 18px;
+ }
+  .ant{
+    position: relative;
+    
+    left: 84px;
+    top: 230px;
+ }
+ .para{
+    position: absolute;
+    top:365px;
+    left: 83px;
+ }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: black;
+} */
+    /* subscribe */
+/* .btn1{
     background-color: rgb(200,0,0);
     color: white;
     border: none;
     font-weight: bold;
     border-radius: 2px;
-    width: 105px;
+    width: 105px;  
     height: 36px;
-    cursor: pointer;
+    cursor: pointer; */
+    /* transition applied on name and seconds  */
+    /* transition: opacity .18s;
 }
+.btn1:hover{
+      opacity: 0.67;
+}
+.btn1:active{
+    opacity: 0.32;
+} */
 /* join */
-.btn2{
+/* .btn2{
     background-color: rgb(255, 255, 255);
     border:1px solid rgb(41,118,211);
     color: rgb(41,118,211);
@@ -21,12 +218,25 @@
     cursor: pointer;
     margin-left: 8px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:lighter;
- 
+    font-weight: bolder; */
+    /* you will have to give name and then time in seconds to set transition */
+    /* and these transitions should be written in class not in :hover property */
+    /* transition: background-color .30s,
+    color .20s; */
+
+
+/* }
+.btn2:hover{
+    background-color:rgb(41,118,211);
+    color: #efefef;
+    font-weight: bolder;
 
 }
+.btn2:active{
+    opacity: 0.5;
+} */
 /* tweet */
-.btn3{
+/* .btn3{
     background-color: rgb(2, 158, 255);
     border: none;
     color: white;
@@ -36,10 +246,25 @@
     font-weight: bolder;
     cursor: pointer;
     margin-left: 8px;
-}
+    transition: box-shadow .12s; */
+    /* box shadow */
+   /* ( it has 4 values 
+    eg.  box-shadow:5px 2px 10px black;
+    It means 5px horizontal right,
+            2px vertical bottom,
+            10px makes its shadow blurr,
+            last value is color of shadow 
+            if we put rgba in stead of color
+            like rgba(0,0,0,0.23) its 4th value will make it more blur 
+            so that it should be in decimal points */
+/* }
+.btn3:hover{
+       
+    box-shadow: 0px  4px 4px #fffffff8;
+} */
 /* add to cart */
-.btn4{
-    background-color:rgb(255, 216, 20);
+/* .btn4{
+    background-color:rgb(255, 218, 70);
     border: none;
     color: black;
     width:200px;
@@ -49,10 +274,20 @@
     font-weight: bold;
     margin-left: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    transition:opacity .32s,
+    background-color .23s,
+    color .15s;
+} */
+/* .btn4:hover{
+    opacity:0.65;
+    background-color: rgb(237, 156, 70);
 }
+.btn4:active{
+    opacity: .89;
+} */
+
 /* Sign-up */
-.btn5{
+/* .btn5{
     background-color:rgb(46, 164, 79);
     border: none;
     border-radius: 3px;
@@ -61,11 +296,18 @@
     cursor: pointer;
     width: 90px;
     height: 37px;
-    margin-left: 8px;
-
+    margin-left: 8px;     
 }
+.btn5:hover{
+     color: rgb(46, 164, 79);
+     background-color:black ;
+     border: 2px solid rgb(46, 164, 79);    */
+/* }
+.btn5:active{
+    opacity:0.56;
+} */
 /* request now */
-.btn6{
+/* .btn6{
     background-color:black;
     border: none;
     border-radius: none;
@@ -75,9 +317,9 @@
     width: 100px;
     height: 37px;
     margin-left: 8px;
-}
+} */
 /* Get started */
-.btn7{
+/* .btn7{
     background-color:rgb(121,82,170);
     border: none;
     border-radius: 4px;
@@ -88,9 +330,9 @@
     height: 37px;
     margin-left: 8px;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 /* Download */
-.btn8{
+/* .btn8{
     background-color:white;
     border:1px solid rgb(108, 117, 125);
     border-radius: 3px;
@@ -102,20 +344,25 @@
     margin-left: 8px;
 }
 /* save */
-.btn9{
-    background-color:white;
-    border: 1px solid rgb(10, 102, 194);
+/* .btn9{
+    background-color:black;
+    border: 2px solid #00d7c3;
     border-radius: 20px;
-    color:rgb(41,118,220) ;
+    color:#00d7c3;
     font-weight: bolder;
-    font-size: large;
+    
     cursor: pointer;
     width: 94px;
     height:45px;
     margin-left: 8px;
+    
 }
+.btn9:hover{
+    box-shadow:0px 0px 12px #00d7c3;
+    transform: translateY(34deg);
+} */
 /* disabled */
-.btn10{
+/* .btn10{
     background-color:#efefef;
     border: none;
     border-radius: 1px;
@@ -125,44 +372,6 @@
     width: 100px;
     height: 40px;
     margin-left: 8px;
-}
-/* svg facebook */
-.btn11{
-    background-color:#efefef;
-    border: none;
-    border-radius: 400px;
-    color: rgb(10, 102, 194);
-    
-    cursor: pointer;
-    width: 40px;
-    height:40px;
-    margin-left: 8px;
-    
-}
-.btn11:hover{
-    background-color: lightgrey;
-    color: red;
-    opacity: 1;
-    -moz-box-align: center;
- }
-/* svg youtube */
-.btn12{
-    background-color:#efefef;
-    border: none;
-    border-radius: 400px;
-    color:red;
-    
-    cursor: pointer;
-    width: 40px;
-    height:40px;
-    margin-left: 8px;
-    cursor: pointer;
-    
-}
-.btn12:hover{
-    background-color: lightgrey;
-    color: red;
-    opacity: 1;
-    border: none;
-}
+}  */
+
 /* mostly these are used */
